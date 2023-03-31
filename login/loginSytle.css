@@ -1,0 +1,129 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: #000;
+    width: 100%;
+    height: 70px;
+    border-bottom: 3px #32B0CD solid;
+    display: flex;
+}
+
+h1{
+    color: #32B0CD;
+}
+ul{
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container{
+    justify-content: space-between;
+    align-items: center;
+}
+li,a{
+    color: #e3b062;
+}
+a{
+    text-decoration: none;
+}
+
+/*Fim do header*/
+
+/*Começo do banner*/
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    color: #fff;
+    border-bottom: 3px #32B0CD solid;
+}
+
+.banner .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+p{
+    width: 200px;
+    font-size: 40px;
+}
+
+span{
+    font-weight: 800;
+}
+
+/* Fim do banner */
+
+
+/* Começo Footer */
+
+.footer{
+    width: 100%;
+    background-color: #32a7b1;
+    color: white;
+}
+
+.footer .frase{
+    padding: 5px;
+}
+
+.footer p{
+    width: auto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Final do footer*/
+
+.form {
+    padding: 20px 60px;
+    background-color: #fff8ed;
+    display: flex;
+    flex-direction: column;
+    color: #db7093;
+    border-radius: 5px;
+}
+
+.label {
+    font-size: 15px;
+    margin: 0;
+}
+
+input{
+    border: solid 3px #32a7b1;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #e6005a;
+    color: white;
+    border: 0;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
